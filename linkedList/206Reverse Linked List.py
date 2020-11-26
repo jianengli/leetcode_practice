@@ -28,4 +28,11 @@ class Solution:
     #     return l
     
     #method 2
-    
+    def reverseList(self, head: ListNode) -> ListNode:
+        if not head: return None
+        pre = None
+        cur = head
+        while cur:
+            
+            cur.next, pre, cur = pre, cur, cur.next
+        return pre
