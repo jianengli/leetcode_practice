@@ -2,6 +2,7 @@
 
 | ID | Title | Difficulty | Solution
 | :------------ | :------------ | :------------ | :------------ |
+| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [Stack](linkedList/20.py)|
 | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | Medium | [LinkedList](linkedList/24.py)|
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Hard | [LinkedList](linkedList/2.p5y)|
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [LinkedList](linkedList/141.py)|

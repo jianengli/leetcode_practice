@@ -37,12 +37,12 @@ class Solution(object):
         """
         stack=[]
         pattentheses_map={')':'(',']':'[','}':'{'}
-        for p in s:
+        for cur in s:
             print(not stack)
-            if p not in pattentheses_map:
+            if cur not in pattentheses_map:
                 # put left pattenthesis into the stack
-                stack.append(p)
+                stack.append(cur)
                 
-            elif not stack or pattentheses_map[p]!=stack.pop():
+            elif not stack or pattentheses_map[cur]!=stack.pop():
                 return False
         return not stack# it means there is no element in stack,  and return true
