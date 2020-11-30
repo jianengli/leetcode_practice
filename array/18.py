@@ -5,6 +5,9 @@ class Solution:
         for index in range(len(nums)-3):
             if index >= 1 and nums[index] == nums[index-1]: #判重技术：当前元素与前面一致，跳过
                 continue
+            if nums[index]+sum(nums[-3:]) < target or sum(nums[index:index+4])>target: #优化
+                continue
+                
             diff = (target - nums[index]) 
             yValues = self.threeSum(nums[index+1:],diff)
             for item in yValues:
