@@ -3,6 +3,8 @@
 | ID | Title | Difficulty | Solution
 | :------------ | :------------ | :------------ | :------------ |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [HashMap](HashMap/1.py)|
+| 15 | [Three Sum](https://leetcode.com/problems/3sum/) | Medium | [Array](Array/15.py)|
+| 18 | [Four Sum](https://leetcode.com/problems/4sum/submissions/) | Medium | [Array](Array/18.py)|
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [Stack](stack/20.py)|
 | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | Medium | [LinkedList](linkedList/24.py)|
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Hard | [LinkedList](linkedList/2.p5y)|
