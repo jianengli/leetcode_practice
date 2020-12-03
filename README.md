@@ -14,6 +14,7 @@
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Medium | [LinkedList](linkedList/206.py)|
 | 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | Easy | [Queue](Queue/225.py)|
 | 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy | [Stack](Stack/232.py)|
+| 236 | [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | Easy | [Tree](tree/236.py)|
 | 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/submissions/) | Hard | [Queue](Queue/239.py)|
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [HashMap](HashMap/242.py)|
 | 703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | Medium | [Stack](Stack/232.py)|
