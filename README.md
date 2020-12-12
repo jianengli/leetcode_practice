@@ -9,9 +9,10 @@
 | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | Medium | [LinkedList](linkedList/24.py)|
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Hard | [LinkedList](linkedList/25.py)|
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | Medium | [Recursion](recursion/50.py)|
-| 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | [Tree](tree/98.p5y)|
+| 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | [Tree](tree/98.py)|
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [LinkedList](linkedList/141.py)|
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | Medium | [LinkedList](linkedList/142.py)|
+| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | [Sort](sort/169.py)|
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Medium | [LinkedList](linkedList/206.py)|
 | 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | Easy | [Queue](queue/225.py)|
 | 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy | [Stack](stack/232.py)|
