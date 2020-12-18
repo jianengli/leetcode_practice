@@ -1,4 +1,5 @@
 class Solution:
+    #method 1 :bfs
     def levelOrder(self, root: TreeNode) -> List[List[int]]:
         if not root: return []
         
@@ -20,3 +21,5 @@ class Solution:
             result.append(current_depth_list)
         
         return result
+    
+    #method2:iterative deepen search
