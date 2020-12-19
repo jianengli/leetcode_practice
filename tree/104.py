@@ -1,11 +1,19 @@
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
 class Solution:
-    #method 1 :bfs
-    def levelOrder(self, root: TreeNode) -> List[List[int]]:
-        if not root: return []
+    def maxDepth(self, root: TreeNode) -> int:
+            #method 1 :bfs
+    
+        if not root: return 0
         
-        result = []
+        # result = []
         openlist = collections.deque()
         closedlist = set() #对图得加这个
+        cost = 0
          
         openlist.append(root)
 
@@ -18,8 +26,9 @@ class Solution:
                     current_depth_list.append(node.val)
                     if node.left: openlist.append(node.left)
                     if node.right: openlist.append(node.right)
-            result.append(current_depth_list)
+            # result.append(current_depth_list)
+            cost = cost + 1
         
-        return result
+        return cost
     
     #method2:iterative deepen search
