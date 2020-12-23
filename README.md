@@ -6,6 +6,7 @@
 | 15 | [Three Sum](https://leetcode.com/problems/3sum/) | Medium | [Array](array/15.py)|
 | 18 | [Four Sum](https://leetcode.com/problems/4sum/submissions/) | Medium | [Array](array/18.py)|
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [Stack](stack/20.py)|
+| 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Medium | [Recursion](recursion/22.py)|
 | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | Medium | [LinkedList](linkedList/24.py)|
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Hard | [LinkedList](linkedList/25.py)|
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | Medium | [Recursion](recursion/50.py)|
