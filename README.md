@@ -9,6 +9,8 @@
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Medium | [Recursion](recursion/22.py)|
 | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | Medium | [LinkedList](linkedList/24.py)|
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Hard | [LinkedList](linkedList/25.py)|
+| 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/submissions/) | Medium | [Prune](prune/36.py)|
+| 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | Hard | [Prune](prune/37.py)|
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | Medium | [Recursion](recursion/50.py)|
 | 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | Hard | [Prune](prune/51.py)|
 | 52 | [N-Queens II](https://leetcode.com/problems/n-queens-ii/) | Hard | [Prune](prune/52.py)|
