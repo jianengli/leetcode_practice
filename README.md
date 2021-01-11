@@ -3,6 +3,9 @@
 | ID | Title | Difficulty | Solution
 | :------------ | :------------ | :------------ | :------------ |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [HashMap](hashMap/1.py)|
+| 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Medium | [LinkedList](linkedList/2.py)|
+| 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/add-two-numbers/) | Hard | [LinkedList](sort/4.py)|
+| 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | [Array](array/5.py)|
 | 15 | [Three Sum](https://leetcode.com/problems/3sum/) | Medium | [Array](array/15.py)|
 | 18 | [Four Sum](https://leetcode.com/problems/4sum/submissions/) | Medium | [Array](array/18.py)|
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [Stack](stack/20.py)|
