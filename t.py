@@ -1,3 +1,6 @@
-numbers = [0]    
-numbers = numbers[1:]
-print(numbers)
+l =['?','2','1']
+
+if not l[0].isdigit() :
+    print("s")
+
+# print(l)
