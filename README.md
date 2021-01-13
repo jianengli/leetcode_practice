@@ -9,8 +9,9 @@
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Easy | [Array](array/7.py)|
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | Medium | [Array](array/8.py)|
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | [String](string/8.py)|
-| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/submissions//) | Medium | [Array](array/11.py)|
-| 15 | [Three Sum](https://leetcode.com/problems/3sum/) | Medium | [Array](array/15.py)|
+| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/submissions/) | Medium | [Array，双指针法](array/11.py)|
+| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | [Array](array/11.py)|
+| 15 | [Three Sum](https://leetcode.com/problems/3sum/) | Medium | [Array，双指针法](array/15.py)|
 | 18 | [Four Sum](https://leetcode.com/problems/4sum/submissions/) | Medium | [Array](array/18.py)|
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [Stack](stack/20.py)|
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Medium | [Recursion](recursion/22.py)|

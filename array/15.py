@@ -1,6 +1,6 @@
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
-        
+        # 思路：a正常遍历，a后面的数组内，采用双指针法指向 b 和 c； 当 a+b+c>0,c的指针需要前移一步；当 a+b+c<0,c的指针需要后移一步
         if len(nums) < 3:
             return []
         res = []
@@ -25,6 +25,9 @@ class Solution:
                     left+=1 
                     right-=1
         return res
+
+        # Runtime: 732 ms, faster than 85.74% of Python3 online submissions for 3Sum.
+        # Memory Usage: 17.6 MB, less than 49.46% of Python3 online submissions for 3Sum.
             
 #             method 1: hash map timeO(n^2) spaceO(n) use hashmap
 #             target = - nums[ia]
