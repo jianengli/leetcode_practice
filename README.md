@@ -6,6 +6,9 @@
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | Medium | [LinkedList](linkedList/2.py)|
 | 4 | [Median of Two Sorted Arrays](https://leetcode.com/problems/add-two-numbers/) | Hard | [LinkedList](sort/4.py)|
 | 5 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | [Array](array/5.py)|
+| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Easy | [Array](array/7.py)|
+| 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | Medium | [Array](array/8.py)|
+| 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | [String](string/8.py)|
 | 15 | [Three Sum](https://leetcode.com/problems/3sum/) | Medium | [Array](array/15.py)|
 | 18 | [Four Sum](https://leetcode.com/problems/4sum/submissions/) | Medium | [Array](array/18.py)|
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [Stack](stack/20.py)|
