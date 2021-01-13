@@ -5,7 +5,7 @@ class Solution:
             return []
         res = []
         nums.sort()
-        for ia in range(len(nums)-2):
+        for ia in range(len(nums)-2): # 注意确保a,b,c一定有3个元素
             if nums[ia] > 0:#当前元素大于0，停止搜索
                 break
             if ia >= 1 and nums[ia] == nums[ia-1]:#当前元素与前面一致，跳过
@@ -20,7 +20,7 @@ class Solution:
                     right-=1
                 else:
                     resultItem = [cur,nums[left],nums[right]]
-                    if len(res) == 0 or res[-1]!=resultItem: # Note:如果 if cur not in res:会超时
+                    if len(res) == 0 or res[-1]!=resultItem: # Note:如果写 if resultItem not in res:会慢70%；要重复也是res最后一位重复，因为nums是已经sort过的
                         res.append(resultItem)
                     left+=1 
                     right-=1
