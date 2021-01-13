@@ -1,6 +1,4 @@
-l =['?','2','1']
+s="321"
+s=s[:1]
 
-if not l[0].isdigit() :
-    print("s")
-
-# print(l)
+print(s)
