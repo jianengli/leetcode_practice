@@ -1,48 +1,15 @@
-"""
-Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+class Solution:
+    def isValid(self, s: str) -> bool:
+        # 时间复杂度O(n),空间复杂度O(n)。
+        stack = []
+        pattentheses_map = {')':'(',']':'[','}':'{'}
+        for ele in s:
+            if ele in pattentheses_map:
+                if not stack or pattentheses_map[ele]!=stack.pop():
+                    return False 
+            else:
+                stack.append(ele) # put left pattenthesis into the stack
+        return not stack # stack无元素返回true，有元素返回false
 
-An input string is valid if:
-
-Open brackets must be closed by the same type of brackets.
-Open brackets must be closed in the correct order.
- 
-
-Example 1:
-
-Input: s = "()"
-Output: true
-Example 2:
-
-Input: s = "()[]{}"
-Output: true
-Example 3:
-
-Input: s = "(]"
-Output: false
-Example 4:
-
-Input: s = "([)]"
-Output: false
-Example 5:
-
-Input: s = "{[]}"
-Output: true
-"""
-class Solution(object):
-    #time:o(1)*n=o(n),space:o(n)
-    def isValid(self, s):
-        """
-        :type s: str
-        :rtype: bool
-        """
-        stack=[]
-        pattentheses_map={')':'(',']':'[','}':'{'}
-        for cur in s:
-            print(not stack)
-            if cur not in pattentheses_map:
-                # put left pattenthesis into the stack
-                stack.append(cur)
-                
-            elif not stack or pattentheses_map[cur]!=stack.pop():
-                return False
-        return not stack# it means there is no element in stack,  and return true
+        # Runtime: 24 ms, faster than 95.81% of Python3 online submissions for Valid Parentheses.
+        # Memory Usage: 14.5 MB, less than 7.68% of Python3 online submissions for Valid Parentheses.

@@ -11,9 +11,11 @@
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | [String](string/8.py)|
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/submissions/) | Medium | [Array，双指针法](array/11.py)|
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | [Array](array/11.py)|
-| 15 | [Three Sum](https://leetcode.com/problems/3sum/) | Medium | [Array，双指针法](array/15.py)|
+| 15 | [Three Sum](https://leetcode.com/problems/3sum/) | Medium | [Array, double pointer](array/15.py)|
+| 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Medium | [Array, double pointer](array/16.py)|
 | 18 | [Four Sum](https://leetcode.com/problems/4sum/submissions/) | Medium | [Array](array/18.py)|
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [Stack](stack/20.py)|
+| 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | [LinkedList](linkedList/21.py)|
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Medium | [Recursion](recursion/22.py)|
 | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | Medium | [LinkedList](linkedList/24.py)|
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Hard | [LinkedList](linkedList/25.py)|
