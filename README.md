@@ -9,7 +9,7 @@
 | 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | Easy | [Array](array/7.py)|
 | 8 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | Medium | [Array](array/8.py)|
 | 9 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | [String](string/8.py)|
-| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/submissions/) | Medium | [Array，双指针法](array/11.py)|
+| 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/submissions/) | Medium | [Array, double pointer](array/11.py)|
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | [Array](array/11.py)|
 | 15 | [Three Sum](https://leetcode.com/problems/3sum/) | Medium | [Array, double pointer](array/15.py)|
 | 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) | Medium | [Array, double pointer](array/16.py)|
