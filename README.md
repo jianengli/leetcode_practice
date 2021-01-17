@@ -17,13 +17,19 @@
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [Stack](stack/20.py)|
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | [LinkedList](linkedList/21.py)|
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | Medium | [Recursion](recursion/22.py)|
+| 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | Hard | [LinkedList](linkedList/23.py)|
 | 24 | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | Medium | [LinkedList](linkedList/24.py)|
 | 25 | [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | Hard | [LinkedList](linkedList/25.py)|
+| 26 | [Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | Easy | [Array](array/26.py)|
+| 33 | [Search in Rotated Sorted Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | Medium | [Array, binary search](array/33.py)|
 | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/submissions/) | Medium | [Prune](prune/36.py)|
 | 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | Hard | [Prune](prune/37.py)|
+| 43 | [Multiply Strings](https://leetcode.com/problems/multiply-strings/) | Medium | [Array, digit](array/43.py)|
+| 46 | [Permutations](https://leetcode.com/problems/permutations/) | Medium | [Recursion](recursion/46.py)|
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | Medium | [Recursion](recursion/50.py)|
 | 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | Hard | [Prune](prune/51.py)|
 | 52 | [N-Queens II](https://leetcode.com/problems/n-queens-ii/) | Hard | [Prune](prune/52.py)|
+| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Easy | [Dp](dp/53.py)|
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | [Tree](tree/98.py)|
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | [Tree](tree/102.py)|
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [Tree](tree/104.py)|

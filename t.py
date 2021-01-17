@@ -1,4 +1,6 @@
-s=[1,2,3,4]
-s=s[1:3]
+a=[1,2,3]
+b=a.copy()
+b.append(4)
 
-print(s)
+
+print(a)
