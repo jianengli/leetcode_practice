@@ -1,6 +1,4 @@
-a=[1,2,3]
-b=a.copy()
-b.append(4)
-
-
-print(a)
+a=[1,2,3] 
+res = [[0 for i in range(4)] for j in range(4)]
+ 
+print(res)

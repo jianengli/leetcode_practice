@@ -29,7 +29,8 @@
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | Medium | [Recursion](recursion/50.py)|
 | 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | Hard | [Prune](prune/51.py)|
 | 52 | [N-Queens II](https://leetcode.com/problems/n-queens-ii/) | Hard | [Prune](prune/52.py)|
-| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Easy | [Dp](dp/53.py)|
+| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Easy | [Dp](dp/53.py)| 
+| 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | Medium | [Array](array/59.py)|
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | [Tree](tree/98.py)|
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | [Tree](tree/102.py)|
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [Tree](tree/104.py)|
