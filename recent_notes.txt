@@ -1,0 +1,2 @@
+1. 前缀和：https://mp.weixin.qq.com/s/pMcdYAy5W_01zuch5wkCyA
+2. python set不能添加list，dict, set的原因。https://blog.csdn.net/qq_35721743/article/details/103064509

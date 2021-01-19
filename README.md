@@ -31,6 +31,9 @@
 | 52 | [N-Queens II](https://leetcode.com/problems/n-queens-ii/) | Hard | [Prune](prune/52.py)|
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Easy | [Dp](dp/53.py)| 
 | 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | Medium | [Array](array/59.py)|
+| 61 | [Rotate List](https://leetcode.com/problems/rotate-list/) | Medium | [LinkedList](linkedList/61.py)|
+| 62 | [Unique Paths  ](https://leetcode.com/problems/unique-paths) | Medium | [Dp](dp/62.py)|
+| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [Dp](dp/70.py)|
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | [Tree](tree/98.py)|
 | 102 | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | [Tree](tree/102.py)|
 | 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [Tree](tree/104.py)|
@@ -48,3 +51,7 @@
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [HashMap](hashMap/242.py)|
 | 703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | Medium | [Stack](stack/232.py)|
 
+# 剑指 Offer
+| ID | Title | Difficulty | Solution
+| :------------ | :------------ | :------------ | :------------ |
+| 22 | [链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | Easy | [LinkedList](jianzhi_offer/linkedlist/22.py)|
