@@ -1,3 +1,3 @@
-a=set()
-a.add(1)
+import math
+a=math.pow(2, 3)
 print(a)

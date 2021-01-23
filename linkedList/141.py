@@ -11,9 +11,8 @@ class Solution(object):
         :rtype: bool
         """
         slow = fast = head
-        while slow and fast and fast.next:
-            slow = slow.next
-            fast = fast.next.next
+        while slow and fast and fast.next: # 注意不要忘记检查fast.next的存在
+            slow, fast = slow.next, fast.next.next 
             if slow is fast:
                 return True
             

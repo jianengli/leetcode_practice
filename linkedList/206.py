@@ -36,3 +36,22 @@ class Solution:
             
             cur.next, pre, cur = pre, cur, cur.next
         return pre
+
+# 1.19再写，不如前面精简
+# class Solution:
+#     def reverseList(self, head: ListNode) -> ListNode:
+#         if head == None: return head
+#         dummy_node = ListNode(0)
+#         move = head
+#         while move.next != None:
+#             move = move.next 
+#         move.next = dummy_node
+
+#         pre, cur = None, head
+#         while cur != None:
+#             tmp = cur.next
+#             cur.next = pre
+#             pre = cur
+#             cur = tmp
+        
+#         return dummy_node.next
