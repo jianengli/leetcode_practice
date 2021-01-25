@@ -49,6 +49,10 @@
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | Easy | [Dp, XOR](dp/136.py)|
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [LinkedList](linkedList/141.py)|
 | 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | Medium | [LinkedList](linkedList/142.py)|
+| 146 | [LRU](https://leetcode.com/problems/lru-cache/) | Medium | [Double linkedList, hash table](linkedList/146.py)|
+| 148 | [Sort List](https://leetcode.com/problems/lru-cache/) | Medium | [LinkedList, merge sort](linkedList/148.py)|
+| 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | Easy | [Stack](stack/155.py)|
+| 160 | [Intersection of two linked lists](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | Easy | [LinkedList](linkedList/160.py)|
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | Easy | [Sort](sort/169.py)|
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Medium | [LinkedList](linkedList/206.py)|
 | 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | Easy | [Queue](queue/225.py)|
@@ -59,7 +63,4 @@
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [HashMap](hashMap/242.py)|
 | 703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | Medium | [Stack](stack/232.py)|
 
-# 剑指 Offer
-| ID | Title | Difficulty | Solution
-| :------------ | :------------ | :------------ | :------------ |
-| 22 | [链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | Easy | [LinkedList](jianzhi_offer/linkedlist/22.py)|
+ 
