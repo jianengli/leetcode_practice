@@ -17,9 +17,9 @@ class Solution:
                 return root
             
     #     #递归:Runtime: 80 ms, faster than 45.25% 
-    #     if root.val>p.val and root.val>q.val:
-    #         return self.lowestCommonAncestor(root.left,p,q)
-    #     elif root.val<p.val and root.val<q.val:
-    #         return self.lowestCommonAncestor(root.right,p,q)
-    #     return root
+        if root.val>p.val and root.val>q.val:
+            return self.lowestCommonAncestor(root.left,p,q)
+        elif root.val<p.val and root.val<q.val:
+            return self.lowestCommonAncestor(root.right,p,q)
+        return root
     # # note: do not forget return in two 'if' statement, otherwise wrong answer appears
