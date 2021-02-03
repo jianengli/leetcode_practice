@@ -1,2 +1,2 @@
-if None is None:
-    print(1)
+t = 4//5
+print(t)
