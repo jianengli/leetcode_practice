@@ -33,8 +33,9 @@
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Easy | [Dp](dp/53.py)| 
 | 59 | [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | Medium | [Array](array/59.py)|
 | 61 | [Rotate List](https://leetcode.com/problems/rotate-list/) | Medium | [LinkedList](linkedList/61.py)|
-| 62 | [Unique Paths  ](https://leetcode.com/problems/unique-paths) | Medium | [Dp](dp/62.py)|
+| 62 | [Unique Paths](https://leetcode.com/problems/unique-paths) | Medium | [Dp](dp/62.py)|
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [Dp](dp/70.py)|
+| 72 | [Edit Distance](https://leetcode-cn.com/problems/edit-distance/) | Hard | [Dp or recursion](dp/72.py)|
 | 78 | [subsets](https://leetcode-cn.com/problems/subsets/) | Medium | [Recursion, backtrack](recursion/78.py)|
 | 82 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | Medium | [LinkedList](linkedList/82.py)|
 | 83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | Easy | [LinkedList](linkedList/83.py)|

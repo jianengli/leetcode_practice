@@ -1,2 +1,2 @@
-t = 4//5
-print(t)
+if not []:
+    print("1") 
