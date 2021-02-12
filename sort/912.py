@@ -1,3 +1,5 @@
+# https://leetcode-cn.com/problems/sort-an-array/solution/python-shi-xian-de-shi-da-jing-dian-pai-xu-suan-fa/
+# 归并 
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
         if len(nums)<=1:
@@ -20,4 +22,21 @@ class Solution:
         res += left[i:] # 不是 append
         res += right[j:]
         return res
- 
+
+# 冒泡 o(n^2) 超时
+class Solution:
+    def sortArray(self, nums: List[int]) -> List[int]:
+        for z in range(len(nums)):
+            for i in range(len(nums)-1-z):
+                if nums[i] > nums[i+1]:
+                    nums[i], nums[i+1] = nums[i+1], nums[i]
+        return nums
+
+# 插入排序 o(n^2)
+class Solution:
+    def sortArray(self, nums: List[int]) -> List[int]:
+        for z in range(1,len(nums)): 
+            while z>0 and nums[z]<nums[z-1]:
+                nums[z],nums[z-1] = nums[z-1],nums[z] 
+                z -= 1
+        return nums

@@ -6,5 +6,7 @@
             return 1/self.myPow(x,-n)
         if n%2:
             return x*self.myPow(x,n-1)
-        else:
+        else
             return self.myPow(x*x,n/2) 
+
+time O（logn）
