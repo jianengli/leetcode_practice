@@ -48,3 +48,42 @@ class Solution:
         return dummy_node.next
 
             
+2.25
+
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def mergeKLists(self, lists: List[ListNode]) -> ListNode:
+    
+        def merge(l,r,lists):
+            if l == r:
+                return lists[l]
+            mid = (l+r)//2
+            l1 = merge(l,mid,lists) # lists应当照样传
+            l2 = merge(mid+1,r,lists)
+            return self.merge_two_lists(l1,l2)
+        if not lists: return None
+        return merge(0,len(lists)-1,lists)
+
+    def merge_two_lists(self, l1: List[ListNode],l2: List[ListNode] ):
+        move = dummy_node = ListNode(10086)
+        while l1 or l2:
+             
+            if not l1:
+                move.next = l2
+                l2 = l2.next    
+            elif not l2:
+                move.next = l1
+                l1 = l1.next         
+            elif l1.val <= l2.val and l1 and l2:
+                move.next = l1
+                l1 = l1.next
+            elif l1.val > l2.val and l1 and l2:
+                move.next = l2
+                l2 = l2.next
+            move = move.next
+        # print(dummy_node.next)
+        return dummy_node.next
